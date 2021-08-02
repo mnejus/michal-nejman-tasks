@@ -30,5 +30,5 @@ public class TaskMapper {
         return taskList.stream()
                 .map(this::mapToTaskDto)
                 .collect(Collectors.toList());
-    }
+    }   
 }
