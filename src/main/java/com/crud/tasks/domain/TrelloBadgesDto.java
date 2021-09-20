@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.crud.tasks.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -15,21 +14,3 @@ public class TrelloBadgesDto {
     @JsonProperty("attachmentsByType")
     private TrelloAttachmentsByTypeDto attachmentsByType;
 }
-=======
-package com.crud.tasks.domain;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Data;
-
-@Data
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class TrelloBadgesDto {
-
-    @JsonProperty("votes")
-    private int votes;
-
-    @JsonProperty("attachmentsByType")
-    private TrelloAttachmentsByTypeDto attachmentsByType;
-}
->>>>>>> 22f7b9d (22.3 - added: test)
