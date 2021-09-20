@@ -107,5 +107,11 @@ class TrelloClientTest {
         assertEquals(0, fetchedTrelloBoards.size());
 
     }
+<<<<<<< HEAD
 }
 
+=======
+
+
+}
+>>>>>>> 22f7b9d (22.3 - added: test)
